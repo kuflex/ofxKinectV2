@@ -1,0 +1,17 @@
+For using a Kinect using this addon in Windows, 
+you need set up the appropriate driver for each Kinect device 
+by following this steps 
+
+1. Plug-in Kinect V2.
+
+2. Run zadig-2.3.exe (located in install_win folder)
+
+3. Check menu's checkbox Options -> List All Devices
+
+4. Uncheck menu's checkbox Options -> Ignore Hubs or Composite Parents
+
+5. Select in main window's list of USB devices "Xbox NUI Sensor (Composite Parent)"
+
+6. Select in the list above "Install Driver / Replace Driver" driver "libusbK (v.3.0.7.0)"
+
+7. Click the button "Replace Driver / Install Driver". (Sometimes we need to do it twice, at first Install the Replace)
